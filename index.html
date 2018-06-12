@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/preset/preset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
   <!-- Put CSS Link here!-->
   <title>CSS Practice</title>
 </head>
 <body>
-	<div id="title-section">
-    <h1>The Ultimate CSS Walkthrough</h1>
-    <h2>An Introduction to Cascading Style Sheets</h2>
+	<div id= "title-section"> 
+    <h1 class="EmiExampleClass"> Emi is the bomb.com</h1>
+    <h2 class = "exampleclass">An Introduction to Cascading Style Sheets</h2>
   </div>
   <hr>
   <div id="welcome">
@@ -18,7 +20,7 @@
   </div>
   <hr>
   <div class="info-section">
-    <h3>What is CSS again?</h3>
+    <h3> What is CSS again?</h3>
     <p>CSS stands for Cascading Style Sheets. We use CSS to apply style and formatting to websites. It is a good practice as a programmer to keep <em>content</em> and <em>styling</em> separate. It helps keep our code organized, easy to read, and reuseble. CSS written for one page can be linked by multiple pages.  Different pages on a website can share a local file, often stored in a CSS subfolder. Different websites can even share CSS that is hosted remotely and accessed when a page loads.</p>
   </div>
   <hr>
@@ -33,19 +35,19 @@
   <div class="info-section">
     <h3>What Can I change Using CSS?</h3>
     <ul>
-      <li class="font-style">Font style</li>
-      <li class="text-size">Text size</li>
+      <li class="text-style">Font style</li>
+      <li class="text-size">100%</li>
       <li class="background">Background</li>
       <li class="borders">Borders</li>
       <li class="page-layout">Page Layout (like this grid of examples!)</li>
       <li class="margins">Margins</li>
       <li class="rounding-edges">Rounding edges</li>
-      <li class="more">LOTS MORE...</li>
+      <li class="text-color">white</li>
     </ul>
   </div>
   <hr>
   <div class="info-section">
-    <h3>How do we get get started on combining CSS HTML?</h3>
+    <h3> How do we get get started on combining CSS HTML?</h3>
     <p> The first thing you need to do is create a CSS stylesheet and link to it in your HTML file. Your link should be in the 'head' section of the html in this page and should look something like this:<br>
      <pre>&#60link rel="stylesheet" type="text/css" href="path_to_stylesheet"&#62</pre>
     <br>
@@ -60,6 +62,7 @@
     body {
       background-color: lightblue;
       font-size: 150%;
+      font-color: white;
     }
     </pre>
     <p>Save the file and refresh this page.  Whoa! The white background should now be a nice color and all our text is bigger!</p>

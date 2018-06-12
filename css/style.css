@@ -1,1 +1,15 @@
-/* add CSS class and element and selectors here */
+body {
+  background-color:lightblue;
+  font-size: 100%;
+}
+
+
+
+.EmiExampleClass {
+  font-size: 300%;
+}
+.exampleclass {font-family: Verdana;
+}
+
+.anotherexample {border-style:groove;
+}
